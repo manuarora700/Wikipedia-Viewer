@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Wikipedia Viewer</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Bootstrap cdn-->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <!--/Bootstrap cdn-->
+    
+    <!--Custom CSS and JS-->
+    <link rel = "stylesheet" href = "style.css" type = "text/css">
+    <script src = "script.js" rel ="text/javascript"></script>
+    
+</head>
+    
+<body>
+    <div class="container">
+        <div class="text-center">
+            <h1>Wikipedia API Search <i class="fa fa-search" aria-hidden="true"></i></h1>
+        <hr/>
+        <h4>Front-end Development Project</h4>
+        <!--Random wikipedia page-->
+        <a href = "https://en.wikipedia.org/wiki/Special:Random" target = "_blank">
+            <img src = "http://imageog.flaticon.com/icons/png/512/33/33949.png?size=1200x630f&pad=10,10,10,10&ext=png&bg=FFFFFFFF"/>
+        </a>
+    
+        <input class= "form-control" id="searchTerm">
+        <button id="search" type="button" class="btn btn-primary">Submit <i class="fa fa-search" aria-hidden="true"></i></button>
+        </div>
+        <ul id="output">
+        
+        
+        </ul>
+    
+    </div>
+</body>
+</html>
